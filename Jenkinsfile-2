@@ -8,7 +8,7 @@ pipeline{
       post{
         success{
           srcipt{
-            currentResult.result = 'FAILURE'
+            currentBuild.result = 'FAILURE'
           }
         }
       }
